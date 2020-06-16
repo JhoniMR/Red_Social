@@ -1,0 +1,30 @@
+.logo{
+    margin-left: 5em;
+}
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 2 1 auto;
+    text-align: center;
+  }
+  .item-toolbar input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 8px;
+  }
+  input::placeholder {
+    font-size: 1.2em;
+    padding-left: 10em;
+  }
+  .icons-feed img{
+    display: inline;
+    max-width: 25px;
+    margin-right: 10px;
+  }
+  #user{
+    display: inline;
+    border-radius: 50%;
+    max-width: 35px;
+    margin-left: 5px;
+  }
+  
