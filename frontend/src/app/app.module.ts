@@ -11,13 +11,18 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 // MATERIAL DESING
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { ProfileComponent } from './components/profile/profile.component';
+
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     FeedComponent,
     LoginComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    ProfileComponent
 
   ],
   imports: [
@@ -25,7 +30,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

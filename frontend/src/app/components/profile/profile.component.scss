@@ -1,0 +1,41 @@
+.example-card {
+    margin: auto;
+    margin-top: 100px;
+    width: 1200px;
+    height: 500px;
+
+}
+
+.example-header-image {
+    margin: auto;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../../../assets/img/user.jpg');
+    background-size: cover;
+  }
+
+.mat-grid-list{
+    margin-top: -120px;
+
+}
+.mat-grid-list button{
+    margin-top: -15px;
+}
+
+
+  label{
+      margin: 10px;
+      margin-right: 30px;
+  }
+
+  a{
+    margin: 25px;
+    margin-right: 45px;
+   }
+
+.mat-raised-button{
+    margin: 5px;
+    
+  
+   }
