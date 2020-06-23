@@ -15,6 +15,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { CheckInComponent } from './components/check-in/check-in.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {MatButtonModule} from '@angular/material/button';
     FeedComponent,
     LoginComponent,
     ToolbarComponent,
-    ProfileComponent
+    ProfileComponent,
+    CheckInComponent
 
   ],
   imports: [
