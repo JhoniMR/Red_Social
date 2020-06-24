@@ -1,0 +1,38 @@
+.example-card {
+    margin-top: 7em;
+    max-width: 38em;
+    margin-left: 26em;  
+  }
+  
+.example-header-image {
+    margin: auto;
+    margin-top: -100px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../../../assets/img/user.jpg');
+    background-size: cover;
+  }
+
+  .example-container{
+      margin-top: 1em;
+      margin-left: 1em;
+  }
+
+  .mat-form-field{
+    width: 500px;   
+    background-color: #21212E;
+    border-radius: 4px 4px 4px 4px;  
+    margin-top: 1em;
+}
+
+.example-container{
+  color: cornsilk;
+}
+.position-container mat-label {
+  color: cornsilk;
+ 
+}
+ .mat-raised-button{
+    margin-left: 30em;
+ }
+ 

@@ -1,9 +1,8 @@
 .example-card {
     margin: auto;
     margin-top: 100px;
-    width: 1200px;
-    height: 500px;
-
+    width: 1000px;
+    height: 1500px;
 }
 
 .example-header-image {
@@ -24,18 +23,46 @@
 }
 
 
-  label{
+label{
       margin: 10px;
       margin-right: 30px;
-  }
+}
 
-  a{
+a{
     margin: 25px;
     margin-right: 45px;
-   }
+}
+
+.galery{
+   
+    margin-left: 10px;
+}
+.galery img{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+
+    border-radius: 5px;
+    -webkit-box-shadow: -2px 4px 11px -1px rgba(145,145,145,1);
+    -moz-box-shadow: -2px 4px 11px -1px rgba(145,145,145,1);
+    box-shadow: -2px 4px 11px -1px rgba(145,145,145,1);
+}
 
 .mat-raised-button{
     margin: 5px;
-    
-  
-   }
+  }
+
+ .text-center{
+     text-align:center;
+ }
+ 
+ hr {
+    border: none;
+    height: 1px;
+    margin: 3em;
+    color: rgb(255, 0, 0); 
+    background-color: #333; 
+}
+
